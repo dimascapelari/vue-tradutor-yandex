@@ -32,6 +32,7 @@ export default {
 
 <template>
   <div class="wrapper">
+    <h3>Tradutor Yandex</h3>
     <input v-model="inputText" type="text" />
     <button @click="translateText">Traduzir</button>
     <textarea v-model="translatedText" readonly></textarea>
